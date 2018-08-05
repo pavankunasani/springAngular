@@ -1,0 +1,12 @@
+
+
+<form #userReg = "ngForm" (ngSubmit) = "onClickSubmit(userReg.value)" id="myForm">
+   firstname: <input type = "text" name = "firstname" placeholder = "firstname" [ngModel]="fistname" required>
+   <br/>
+ lastname:  <input type = "password" name = "lastname" placeholder = "lastname" [ngModel]="lastname" required>
+   <br/>
+   <input type = "submit" value = "submit">
+   
+</form>
+
+{{employee.firstname}}
